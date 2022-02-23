@@ -36,9 +36,9 @@
 
     points.forEach(point => {
         L.marker([point.lat, point.lon]).addTo(map).bindPopup(point.text).openPopup();
-    })
-    
-    
+    });
+
+        map.setView([51.1079, 17.0385], 13);
 
 </script>
 </body>
